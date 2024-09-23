@@ -167,7 +167,7 @@ public class DynaTechItemsSetup {
 
         new ItemBand(ItemGroups.TOOLS, Items.ITEM_BAND_HASTE.stack(), Recipes.ITEM_BAND_HASTE.getRecipeType(),
                 Recipes.ITEM_BAND_HASTE.getInput(),
-                new PotionEffect[] { new PotionEffect(PotionEffectType.HASTE, 20 * 15, 1, true) })
+                new PotionEffect[] { new PotionEffect(PotionEffectType.FAST_DIGGING, 20 * 15, 1, true) })
                 .register(plugin);
 
         new TesseractBinder(ItemGroups.TOOLS, Items.TESSERACT_BINDER.stack(), Recipes.TESSERACT_BINDER.getRecipeType(),
@@ -472,7 +472,7 @@ public class DynaTechItemsSetup {
         // START Mechanical Components
 
         // final Recipe woodMachineCoreRecipe = Recipes.WOOD_MACHINE_CORE;
-        new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.WOOD_MACHINE_CORE.stack()).register(plugin);
+//        new SlimefunItem(ItemGroups.EXPERIMENTAL, Items.WOOD_MACHINE_CORE.stack()).register(plugin);
         // new UnplaceableBlock(ItemGroups.EXPERIMENTAL,
         // Items.WOOD_MACHINE_CORE.stack()).register(plugin);
 

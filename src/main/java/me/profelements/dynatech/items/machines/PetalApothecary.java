@@ -32,7 +32,7 @@ public class PetalApothecary extends SlimefunItem {
     protected static final HashMap<BlockPosition, List<ItemStack>> RECIPE_ITEMS = new HashMap<>();
 
     public PetalApothecary(ItemGroup itemGroup, SlimefunItemStack item) {
-        super(itemGroup, item);
+        super(itemGroup, item, RecipeTypes.PETAL_APOTHECARY, new ItemStack[] { new ItemStack(Material.CAULDRON) });
 
         addItemHandler(onUse(), new BlockTicker() {
 
