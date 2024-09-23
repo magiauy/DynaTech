@@ -473,15 +473,15 @@ public class Items {
                     LoreBuilder.speed(1),
                     LoreBuilderDynamic.powerPerSecond(16)));
 
-    public static final ItemWrapper ANTIGRAVITY_BUBBLE = ItemWrapper.create(Keys.ANTIGRAVITY_BUBBLE,
-            new SlimefunItemStack(Keys.ANTIGRAVITY_BUBBLE.asSlimefunId(),
-                    Material.OBSIDIAN,
-                    "&6Antigravity Bubble",
-                    "",
-                    "&f Creative Flight within an 45 block area",
-                    "",
-                    LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE),
-                    LoreBuilderDynamic.powerPerSecond(128)));
+    //public static final ItemWrapper ANTIGRAVITY_BUBBLE = ItemWrapper.create(Keys.ANTIGRAVITY_BUBBLE,
+            //new SlimefunItemStack(Keys.ANTIGRAVITY_BUBBLE.asSlimefunId(),
+                    //Material.OBSIDIAN,
+                    //"&6Antigravity Bubble",
+                    //"",
+                    //"&f Creative Flight within an 45 block area",
+                    //"",
+                   // LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE),
+                   // LoreBuilderDynamic.powerPerSecond(128)));
 
     public static final ItemWrapper WEATHER_CONTROLLER = ItemWrapper.create(Keys.WEATHER_CONTROLLER,
             new SlimefunItemStack(Keys.WEATHER_CONTROLLER.asSlimefunId(),
@@ -927,8 +927,8 @@ public class Items {
         public static final TypedKey<ItemWrapper> KITCHEN_AUTO_CRAFTER = TypedKey.create("dynatech",
                 "kitchen_auto_crafter");
 
-        public static final TypedKey<ItemWrapper> ANTIGRAVITY_BUBBLE = TypedKey.create("dynatech",
-                "antigravity_bubble");
+        //public static final TypedKey<ItemWrapper> ANTIGRAVITY_BUBBLE = TypedKey.create("dynatech",
+                //"antigravity_bubble");
 
         public static final TypedKey<ItemWrapper> WEATHER_CONTROLLER = TypedKey.create("dynatech",
                 "weather_controller");

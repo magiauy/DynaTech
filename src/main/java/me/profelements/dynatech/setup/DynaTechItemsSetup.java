@@ -274,12 +274,12 @@ public class DynaTechItemsSetup {
                 .setProcessingSpeed(3)
                 .register(plugin);
 
-        new AntigravityBubble(ItemGroups.MACHINES, Items.ANTIGRAVITY_BUBBLE.stack(),
-                Recipes.ANTIGRAVITY_BUBBLE.getRecipeType(), Recipes.ANTIGRAVITY_BUBBLE.getInput())
-                .setCapacity(1024)
-                .setConsumption(128)
-                .setProcessingSpeed(1)
-                .register(plugin);
+       // new AntigravityBubble(ItemGroups.MACHINES, Items.ANTIGRAVITY_BUBBLE.stack(),
+              //  Recipes.ANTIGRAVITY_BUBBLE.getRecipeType(), Recipes.ANTIGRAVITY_BUBBLE.getInput())
+              //  .setCapacity(1024)
+              //  .setConsumption(128)
+              //  .setProcessingSpeed(1)
+              //  .register(plugin);
 
         new WeatherController(ItemGroups.MACHINES, Items.WEATHER_CONTROLLER.stack(),
                 Recipes.WEATHER_CONTROLLER.getRecipeType(), Recipes.WEATHER_CONTROLLER.getInput())

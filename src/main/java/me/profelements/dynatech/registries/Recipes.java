@@ -798,19 +798,19 @@ public class Recipes {
             .setOutput(Items.GROWTH_CHAMBER_MK2_OCEAN.stack())
             .register();
 
-    public static final Recipe ANTIGRAVITY_BUBBLE = Recipe.init()
-            .setKey(Keys.ANTIGRAVITY_BUBBLE.key())
-            .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
-            .setInput(new ItemStack[] {
-                    SlimefunItems.BLISTERING_INGOT_3, new ItemStack(Material.DIAMOND_BLOCK),
-                    SlimefunItems.BLISTERING_INGOT_3,
-                    SlimefunItems.REINFORCED_ALLOY_INGOT, SlimefunItems.BIG_CAPACITOR,
-                    SlimefunItems.REINFORCED_ALLOY_INGOT,
-                    SlimefunItems.REINFORCED_ALLOY_INGOT, Items.STAINLESS_STEEL_INGOT.stack(),
-                    SlimefunItems.REINFORCED_ALLOY_INGOT,
-            })
-            .setOutput(Items.ANTIGRAVITY_BUBBLE.stack())
-            .register();
+   // public static final Recipe ANTIGRAVITY_BUBBLE = Recipe.init()
+      //      .setKey(Keys.ANTIGRAVITY_BUBBLE.key())
+      //      .setRecipeType(RecipeType.ENHANCED_CRAFTING_TABLE)
+     //       .setInput(new ItemStack[] {
+      //              SlimefunItems.BLISTERING_INGOT_3, new ItemStack(Material.DIAMOND_BLOCK),
+     //               SlimefunItems.BLISTERING_INGOT_3,
+     //               SlimefunItems.REINFORCED_ALLOY_INGOT, SlimefunItems.BIG_CAPACITOR,
+     //               SlimefunItems.REINFORCED_ALLOY_INGOT,
+     //               SlimefunItems.REINFORCED_ALLOY_INGOT, Items.STAINLESS_STEEL_INGOT.stack(),
+     //               SlimefunItems.REINFORCED_ALLOY_INGOT,
+     //       })
+       //     .setOutput(Items.ANTIGRAVITY_BUBBLE.stack())
+      //      .register();
 
     public static final Recipe WEATHER_CONTROLLER = Recipe.init()
             .setKey(Keys.WEATHER_CONTROLLER.key())
@@ -1238,7 +1238,7 @@ public class Recipes {
         public static final TypedKey<Recipe> GROWTH_CHAMBER_MK2_OCEAN = TypedKey
                 .create(Items.Keys.GROWTH_CHAMBER_MK2_OCEAN.key());
 
-        public static final TypedKey<Recipe> ANTIGRAVITY_BUBBLE = TypedKey.create(Items.Keys.ANTIGRAVITY_BUBBLE.key());
+       // public static final TypedKey<Recipe> ANTIGRAVITY_BUBBLE = TypedKey.create(Items.Keys.ANTIGRAVITY_BUBBLE.key());
 
         public static final TypedKey<Recipe> WEATHER_CONTROLLER = TypedKey.create(Items.Keys.WEATHER_CONTROLLER.key());
 
